@@ -1,6 +1,6 @@
 # 🚀 npmCR – The Ultimate Electron NPM Tool
 
-![npmCR Banner](https://via.placeholder.com/800x200.png?text=npmCR+Electron+Tool)
+![npmCR Banner](images/Group%206.png)
 
 **npmCR** is an **Electron-powered desktop tool** for managing Node.js projects. Run scripts like `npm run dev`, `npm run build`, `npm run lint`, and install packages without touching a terminal. Designed for **speed, simplicity, and insane productivity**.
 
