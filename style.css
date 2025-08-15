@@ -1,0 +1,119 @@
+/* Reset and base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Consolas', 'Courier New', monospace;
+  background: #1e1e1e;
+  color: #cfcfcf;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title bar */
+header {
+  background: #2d2d2d;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Folder input + browse */
+.folder-bar {
+  display: flex;
+  padding: 15px 20px;
+  gap: 10px;
+  background: #252526;
+}
+.folder-bar input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #333;
+  color: #fff;
+  font-size: 1em;
+}
+.folder-bar button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background: #007acc;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.folder-bar button:hover {
+  background: #005f99;
+}
+
+/* Buttons panel */
+.buttons-panel {
+  display: flex;
+  padding: 15px 20px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.btn.circle {
+  width: 70px;
+  height: 70px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #3c3c3c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.9em;
+  cursor: pointer;
+  border: 2px solid #555;
+  transition: all 0.2s;
+}
+.btn.circle:hover {
+  background: #505050;
+  border-color: #888;
+}
+
+/* Output panel */
+#output {
+  flex: 1;
+  margin: 0 20px 20px 20px;
+  background: #1e1e1e;
+  color: #cfcfcf;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: 'Consolas', monospace;
+  font-size: 0.95em;
+  overflow-y: auto;
+  border: 1px solid #333;
+  white-space: pre-wrap;
+}
+
+/* Links inside output */
+#output a {
+  color: #4fc3f7;
+  text-decoration: underline;
+}
+
+/* Scrollbar for output */
+#output::-webkit-scrollbar {
+  width: 10px;
+}
+#output::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+#output::-webkit-scrollbar-track {
+  background: #2e2e2e;
+  border-radius: 5px;
+}
+
+.button-bar{
+  display: flex;
+  padding: 15px 20px;
+  gap: 15px;
+  flex-wrap: wrap;
+}

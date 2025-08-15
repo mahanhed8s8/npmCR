@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NPM Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    npmCR
+    <button id="themeToggle" style="float:right; padding:5px 10px; font-size:0.8em; cursor:pointer;">Toggle Theme</button>
+  </header>
+
+  <div class="folder-bar">
+    <input type="text" id="folder" placeholder="Select folder">
+    <button id="browseBtn">Browse</button>
+  </div>
+
+  <br/>
+  <hr/>
+  <br/>
+
+  <div class="button-bar">
+    <button id="devBtn" class="btn circle">dev</button>
+    <button id="buildBtn" class="btn circle">build</button>
+    <button id="lintBtn" class="btn circle">lint</button>
+    <button id="installBtn" class="btn circle">npm i</button>
+    <button id="stopBtn" class="btn circle">stop</button>
+    <button id="vscodeBtn" class="btn circle">VS Code</button>
+    <button id="cursorBtn" class="btn circle">Cursor</button>
+  </div>
+
+  <br/>
+  <hr/>
+  <br/>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
