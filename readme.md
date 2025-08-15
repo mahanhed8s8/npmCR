@@ -79,7 +79,7 @@ npm start
 
 ## 🎨 Screenshots
 
-![Main Window](https://via.placeholder.com/600x400.png?text=Main+Window)
+![Main Window](images/Screenshot%202025-08-15%20183407.png)
 *The main npmCR interface.*
 
 ---
@@ -131,7 +131,7 @@ MIT License © [mahanhed8s8](https://github.com/mahanhed8s8)
 
 ## 💬 Support
 
-Open issues on [GitHub](https://github.com/mahanhed8s8/npm-tool/issues) for bugs, feature requests, or help.
+Open issues on [GitHub](https://github.com/mahanhed8s8/npmCR/issues) for bugs, feature requests, or help.
 
 ---
 
