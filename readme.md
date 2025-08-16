@@ -1,4 +1,4 @@
-# 🚀 npmCR – The Ultimate Electron NPM Tool
+# 🚀 npmR – The Ultimate Electron NPM Tool (formaly npmCR branding)
 
 ![npmCR Banner](images/Group%206.png)
 
